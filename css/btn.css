@@ -19,6 +19,7 @@
   position: absolute;
   top: 100%;
   left: 50%;
+  /* atstumti i kaire per puse el plocio */
   transform: translatex(-50%);
   width: 1px;
   background-color: white;
