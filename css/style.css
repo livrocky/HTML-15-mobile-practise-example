@@ -148,3 +148,11 @@ article {
     font-size: 90px;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .romb-icons-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+  }
+}
