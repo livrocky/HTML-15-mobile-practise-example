@@ -39,12 +39,16 @@
   padding: 10% 0;
 }
 
-/* .rob-icons-container {
+.romb-icons-container {
   display: flex;
-  flex-wrap: nowrap;
-} */
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 90px;
+  padding-right: 90px;
+  justify-content: space-between;
+}
 
-/* incon romb section */
+/* icon romb section */
 
 .romb-icons-section {
   padding: 10% 0;
@@ -52,6 +56,43 @@
   background-repeat: no-repeat center;
   background-size: cover;
   color: tomato;
+}
+
+.romb-icons-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.romb-icon {
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fa-suitcase {
+  color: rgb(148, 198, 99);
+}
+
+.fa-instagram {
+  color: rgb(159, 79, 79);
+}
+
+.fa-home {
+  color: rgb(120, 110, 177);
+}
+
+.fa-car {
+  color: rgb(48, 48, 96);
+}
+
+.fa-camera {
+  color: rgb(60, 123, 123);
+}
+
+.fa-umbrella {
+  color: rgb(126, 126, 65);
 }
 
 @media screen and (min-width: 500px) {
@@ -62,7 +103,8 @@
   .htb__title {
     font-size: 40px;
   }
+
   .htb__icon {
-    font-size: 75px;
+    font-size: 70px;
   }
 }
