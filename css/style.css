@@ -39,6 +39,21 @@
   padding: 10% 0;
 }
 
+/* .rob-icons-container {
+  display: flex;
+  flex-wrap: nowrap; */
+}
+
+/* incon romb section */
+
+.romb-icons-section {
+  padding: 10% 0;
+  background: url(https://i.pinimg.com/originals/2b/70/66/2b7066bfc69977ed519b7773e6f3b1fa.jpg);
+  background-repeat: no-repeat center;
+  background-size: cover;
+  color: tomato;
+}
+
 @media screen and (min-width: 500px) {
   .hero-text-block {
     align-items: center;
